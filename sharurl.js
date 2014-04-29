@@ -13,12 +13,12 @@
  * https://twitter.com/mrjopino
  * ============================
  */
-$(document).ready(function () {
-  $prefix = 's';
-  $fb_s   = $('[data-' + $prefix + '-fb]'); 
-  $tw_s   = $('[data-' + $prefix + '-tw]');
-  $li_s   = $('[data-' + $prefix + '-li]');
-  $ba_s   = $('[data-' + $prefix + '-ba]');
+$(document).click(function () {
+  $core_s = 'sharurl';
+  $fb_s   = $('[data-' + $core_s + '="facebook"]'); 
+  $tw_s   = $('[data-' + $core_s + '="twitter"]');
+  $li_s   = $('[data-' + $core_s + '="linkedin"]');
+  $ba_s   = $('[data-' + $core_s + '="bufferapp"]');
   _callback_sharurl = '&callback=?';
 
   var sharurl_id, conURL;
