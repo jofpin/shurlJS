@@ -13,7 +13,6 @@
  * https://twitter.com/mrjopino
  * ============================
  */
- 
 $(document).ready(function () {
   $prefix = 's';
   $fb_s   = $('[data-' + $prefix + '-fb]'); 
@@ -42,27 +41,27 @@ $(document).ready(function () {
   
 console.log('sharurl : ' + _sharurl);
 
-  conURL = function($_url_conURL) {
+  conURL = function($boom_s) {
     return setTimeout(function() {
-      var tl_shar, shar_enlace, target;
-      tl_shar = $_url_conURL.attr("data-") * 1;
-      target = $_url_conURL.attr("data-s-") * 1;
-      shar_enlace = tl_shar + Math.ceil((target - tl_shar) / 1); //Timeline
-      $_url_conURL.attr("data-", shar_enlace);
-      $_url_conURL.html(shar_enlace);
-      if (shar_enlace < target) {
-        return conURL($_url_conURL);
+      var tl_shar, shar_link, target;
+      tl_shar = $boom_s.attr("current") * 1;
+      target = $boom_s.attr("result") * 1;
+      shar_link = tl_shar + Math.ceil((target - tl_shar) / 1); //Timeline
+      $boom_s.attr("current", shar_link);
+      $boom_s.html(shar_link);
+      if (shar_link < target) {
+        return conURL($boom_s);
       }
     }, 100);
   };
 
-  sharurl_id = function($_url_conURL, conteo_sharurl) {
+  sharurl_id = function($boom_s, conteo_sharurl) {
     if (conteo_sharurl == null) {
       conteo_sharurl = null;
     }
-    $_url_conURL.attr("data-s-", conteo_sharurl);
-    $_url_conURL.attr("data-", 0);
-    return conURL($_url_conURL);
+    $boom_s.attr("result", conteo_sharurl);
+    $boom_s.attr("current", 0);
+    return conURL($boom_s);
   };
 
 });
