@@ -14,6 +14,23 @@ body {
   text-align: center;
 }
 
+form {
+	position: relative;
+	margin: 2em auto;
+	max-width: 25em;
+}
+input {
+	margin: 0 0 1em 0;
+	padding: 1em 5%;
+	width: 80%;
+	border: 0;  
+	border-radius: 0.23em;
+	background-color: #fff;
+	color: #bbb;
+	font-size: 1em;
+	font-family: 'Open Sans', sans-serif;
+}
+
 .SharURL {
   background: #669ae1;
   box-shadow: inset 0px 0px 8em -0.23em rgba(0, 0, 0, 0.85);
