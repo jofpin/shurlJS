@@ -13,7 +13,7 @@
  * https://twitter.com/mrjopino
  * ============================
  */
-$(document).click(function () {
+$(document).ready(function () {
   $core_s = 'sharurl';
   $fb_s   = $('[data-' + $core_s + '="facebook"]'); 
   $tw_s   = $('[data-' + $core_s + '="twitter"]');
