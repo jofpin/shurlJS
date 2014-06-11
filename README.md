@@ -9,6 +9,6 @@ _sharurl = "your url"; // example
 ```
 -------------
 
-Copyright, 2014 by [José Pino](http://twitter.com/mrjopino)
+Copyright, 2014 by [José Pino](http://twitter.com/jofpin)
 
 -------------
