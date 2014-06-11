@@ -6,11 +6,11 @@
  * Version: 1.2.1
  *
  * Find the project on GitHub: 
- * https://github.com/mrjopino/sharurl.js
+ * https://github.com/jofpin/sharurl.js
  *
  * ============================
  * Copyright, 2014 by Jose Pino
- * https://twitter.com/mrjopino
+ * https://twitter.com/jofpin
  * ============================
  */
 $(document).ready(function () {
