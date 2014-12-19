@@ -13,11 +13,11 @@ $.getShurl("http://twitter.com", 100);
 
 ```html
 <!-- example to implement -->
-<h1>Twitter: <span data-sharurl="twitter">0</span></h1>
-<h1>Facebook: <span data-sharurl="facebook">0</span></h1>
-<h1>Linkedin: <span data-sharurl="linkedin">0</span></h1>
-<h1>BufferApp: <span data-sharurl="bufferapp">0</span></h1>
-<h1>Pinterest: <span data-sharurl="pinterest">0</span></h1> 
+<h1>Twitter: <span data-shurl="twitter">0</span></h1>
+<h1>Facebook: <span data-shurl="facebook">0</span></h1>
+<h1>Linkedin: <span data-shurl="linkedin">0</span></h1>
+<h1>BufferApp: <span data-shurl="bufferapp">0</span></h1>
+<h1>Pinterest: <span data-shurl="pinterest">0</span></h1> 
 ```
 -------------
 
