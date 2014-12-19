@@ -2,60 +2,73 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>sharurl.js &#8250; awesome shared.</title>
+    <title>shurl.js &#8250; awesome shared.</title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
 
-    <meta name="viewport" content="width=device-width"/>
-    <meta name="viewport" content="initial-scale=1.0,user-scalable=no,maximum-scale=1,width=device-width">
     <meta name="google" value="notranslate"/>
     <meta name="author" content="@jofpin"/>
-    <meta name="keywords" content="jofpin, Jose pino, css, js, front-end, sharurl.js"/>
-    <meta name="description" content="sharurl.js, social networks"/>
+    <meta name="description" content="shurl.js. Track the number of times your page has been shared on several social networks"/>
 
     <link rel="stylesheet" type="text/css" href="styles.css">
 
     <script src="jquery.min.js"></script>
 
-    <!-- sharurl.js -->
-    <script src="sharurl.min.js"></script>
+    <!-- shurl.js -->
+    <script src="shurl.min.js"></script>
     <link rel="stylesheet" type="text/css" href="http://bullg.it/kissUI/kissui.min.css">
    <!--[if lt IE 9]>
     <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]--><!--[if (gte IE 6)&(lte IE 8)]>
    <![endif]-->
 </head>
-
 <body>
 
-<!-- Track the number of times your page has been shared on several social networks -->
+<div class="wrapper--shurl">
+    <h1>Shurl.js</h1>
+<div class="network twitter">
+  <div class="inner">
+      <div class="zocial-twitter"> 
+        <span data-sharurl="twitter">0</span>
+      </div>
+  </div>
+ </div> 
 
-<h1>Sharurl.js</h1>
-<form>
-  <input type="text" id="sharurl" placeholder="http://" />
- 
-  <a href="#" class="btn_kiss blue">View</a>
-</form>
+<div class="network facebook">
+  <div class="inner">
+      <div class="zocial-facebook"> 
+        <span data-sharurl="facebook">0</span>
+      </div>
+  </div>
+ </div> 
 
-<div class="SharURL">
-   <a class="Twitter" title="Twitter">
-     <span data-sharurl="twitter">0</span></a>
-    <a class="Facebook" title="Facebook">
-      <span data-sharurl="facebook">0</span></a>
-     <a class="Linkedin" title="Linkedin">
-       <span data-sharurl="linkedin">0</span></a>
-       <a class="BufferApp" title="Buffer">
-       <span data-sharurl="bufferapp">0</span></a> 
+<div class="network linkedin">
+  <div class="inner">
+      <div class="zocial-linkedin"> 
+        <span data-sharurl="linkedin">0</span>
+      </div>
+  </div>
+ </div> 
+
+<div class="network bufferapp">
+  <div class="inner">
+      <div class="zocial-buffer"> 
+        <span data-sharurl="bufferapp">0</span>
+      </div>
+  </div>
+ </div> 
+  
+<div class="network pinterest">
+  <div class="inner">
+      <div class="zocial-pinterest"> 
+        <span data-sharurl="pinterest">0</span>
+      </div>
+  </div>
+ </div> 
 </div>
 
-<h2> v1.2.1 </h2>
-
-<h2>Copyright, 2014 by José Pino</h2>
-
-<a class="entypo-github github--mrjopino" href="https://github.com/jofpin/sharurl.js" title="José Pino"></a>
-
+<!-- implementation -->
 <script>
-// sharurl.js
-_sharurl = "http://twitter.com"; // example
+$.getShurl("http://twitter.com", 0);
 </script>
 
 </body>
