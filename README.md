@@ -3,7 +3,7 @@ shurl.js
 
 Track the number of times your page has been shared on several social networks
 
-hey here demo: [http://jofpin.github.io/sharurl.js](http://jofpin.github.io/shurlJS/)
+hey here demo: [http://jofpin.github.io/shurlJS](http://jofpin.github.io/shurlJS/)
 
 ```js
 // use shurl.js
