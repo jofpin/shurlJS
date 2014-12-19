@@ -25,7 +25,7 @@ jQuery.getShurl = function(url, time) {
       },
       self: this,
       root: url,
-      core: 'sharurl',
+      core: 'shurl',
       result: "result",
       error: "Not Found",
       relate: 0,
