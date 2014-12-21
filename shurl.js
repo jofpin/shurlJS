@@ -152,5 +152,3 @@ jQuery.getShurl = function(url, time) {
   main.self.networks();
   main.self.credits();
 };
-
-//$.getShurl("http://twitter.com", 100);
