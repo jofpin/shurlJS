@@ -1,0 +1,17 @@
+{
+  "name": "shurlJS",
+  "version": "1.0.1",
+  "description": "Track the number of times your page has been shared on several social networks.",
+  "main": "shurl.js",
+  "keywords": [
+    "Track",
+    "analytics",
+    "social",
+    "networks"
+  ],
+  "authors": [
+    "Jose Pino"
+  ],
+  "license": "MIT",
+  "homepage": "http://jofpin.github.io/shurlJS/"
+}
