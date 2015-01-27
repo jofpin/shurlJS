@@ -5,6 +5,12 @@ Track the number of times your page has been shared on several social networks
 
 hey here demo: [http://jofpin.github.io/shurlJS](http://jofpin.github.io/shurlJS/)
 
+## Installation
+
+-   Clone `git clone https://github.com/jofpin/shurlJS.git`
+-   [Download the latest version](https://github.com/jofpin/shurlJS/archive/master.zip)
+-   Install with Bower: `bower install shurl`
+
 ```js
 // use shurl.js
 $.getShurl("http://twitter.com", 100);
